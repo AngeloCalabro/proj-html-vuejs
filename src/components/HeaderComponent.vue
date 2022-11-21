@@ -8,7 +8,7 @@
                 </ul>
             </div>
             <div class="jumbo container">
-                <h1 class="text-uppercase">NO PAIN NO GAIN</h1>
+                <h1 class="text-uppercase">no pain no gain</h1>
                 <p>Motivation is what gets you started. Habit is what keeps you going.</p>
                 <div class="my-btn text-uppercase p-2">Join Us Today</div>
             </div>
