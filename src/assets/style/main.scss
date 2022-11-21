@@ -14,6 +14,9 @@ $fa-font-path: '../webfonts';
 }
 
 body{
-    // background-color: $shark;
-    color: $hokey-pokey;
+    background-color: $shark;
+    color: $white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
 }

@@ -11,4 +11,8 @@
     @else if ($option =='between') {
         justify-content: space-between;
     }
+
+    @else if ($option =='around') {
+        justify-content: space-around;
+    }
 }
