@@ -49,6 +49,28 @@ export const store = reactive({
             paragraf: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos harum officiis, deserunt voluptatibus necessitatibus quia.'
         },
     ],
+    people: [
+        {
+            photo: '',
+            text: '"The trainers at Avaga Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it"',
+            name: 'Tara Smith'
+        },
+        {
+            photo: '',
+            text: 'The atmosphere at AvadaGym is amazing, the people are even better. All in all, it is a great place to work out.',
+            name: 'Simon Chel'
+        },
+        {
+            photo: '',
+            text: 'The facilities at Avada Gym stood outvto me the most. They are well maintained and have high quality equipment.',
+            name: 'Jen Wirth'
+        },
+        {
+            photo: '',
+            text: 'No bad things to say about Avada Gym, they are top notch at evry corner and truly take care of their customers.',
+            name: 'Jeff Glum'
+        },
+    ],
     linksNavBottom: [
         {
             title: 'come find us',
