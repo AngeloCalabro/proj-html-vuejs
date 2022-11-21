@@ -6,10 +6,8 @@
         </div>
         <div class="my-cards d-flex">
             <div class="my-card d-flex" v-for="(person, index) in store.people" :key="index">
-                <div class="picture-photo">
-                    <img :src="person.photo" :alt="person.name">
-                </div>
-                <div class="">
+                <img class="img-fluid" :src="getImagePath(`../assets/images/${person.photo}.jpg`)" :alt="person.name">
+                <div class="ps-4">
                     <p><em>{{person.text}}</em></p>
                     <span class="fw-bold">- {{person.name}}</span>
                 </div>
@@ -26,6 +24,11 @@ export default {
         return {
             store,
         }
+    },
+    methods: {
+        getImagePath: function (imgPath) {
+            return new URL(imgPath, import.meta.url).href;
+        }
     }
 }
 </script>
@@ -40,7 +43,7 @@ section{
         div.my-card{
             width: calc((100% / 2) - 2rem);
             margin: 1rem;
-            padding: 2rem 4rem;
+            padding: 2rem;
             background-color: $woodsmoke;
         }
     }

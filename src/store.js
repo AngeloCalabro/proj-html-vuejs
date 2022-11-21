@@ -51,22 +51,22 @@ export const store = reactive({
     ],
     people: [
         {
-            photo: '',
+            photo: 'review_1-compressor',
             text: '"The trainers at Avaga Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it"',
             name: 'Tara Smith'
         },
         {
-            photo: '',
+            photo: 'review_3-compressor-2',
             text: 'The atmosphere at AvadaGym is amazing, the people are even better. All in all, it is a great place to work out.',
             name: 'Simon Chel'
         },
         {
-            photo: '',
+            photo: 'review_2-compressor',
             text: 'The facilities at Avada Gym stood outvto me the most. They are well maintained and have high quality equipment.',
             name: 'Jen Wirth'
         },
         {
-            photo: '',
+            photo: 'review_4-compressor-2',
             text: 'No bad things to say about Avada Gym, they are top notch at evry corner and truly take care of their customers.',
             name: 'Jeff Glum'
         },
