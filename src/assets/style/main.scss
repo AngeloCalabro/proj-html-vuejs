@@ -7,7 +7,13 @@ $fa-font-path: '../webfonts';
 
 @import 'bootstrap/scss/bootstrap';
 
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: $shark;
+    // background-color: $shark;
     color: $hokey-pokey;
 }
