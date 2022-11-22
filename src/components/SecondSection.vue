@@ -1,11 +1,11 @@
 <template>
     <section id="second-section">
         <div class="container">
-            <div class="d-flex align-items-center">
-                <div class="p-2">
+            <div class="row g-0">
+                <div class="col-lg-6 pe-2">
                     <img class="img-fluid" src="../assets/images/home_img-compressor.jpg" alt="">
                 </div>
-                <div class="p-2">
+                <div class="col-lg-6 ps-2">
                     <h3 class="text-capitalize">Sign up for a free training session!</h3>
                     <form @click.prevent="">
                         <div class="my-4 input-group">

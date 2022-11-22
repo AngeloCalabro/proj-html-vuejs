@@ -5,7 +5,7 @@
                 <div class="circle">
                     <i class="fa-solid" :class="item.icon"></i>
                 </div>
-                <h5 class="pt-4 my-title">{{ item.title }}</h5>
+                <div class="pt-4 fw-bold my-title">{{ item.title }}</div>
                 <img class="py-2" src="../assets/images/divider-x-red.png" alt="divider">
                 <p class="p-2">{{ item.paragraf }}</p>
             </div>
@@ -43,6 +43,10 @@ export default {
             &:hover .my-title{
                 color: $vibrant;
             }
+            &:hover .circle::before,
+            &:hover .circle::after {
+                animation: pulse 1.5s linear;
+            }
             div.circle {
                 width: 100px;
                 height: 100px;
@@ -65,7 +69,6 @@ export default {
                     top: -20px;
                     bottom: -20px;
                     border-radius: 50%;
-                    animation: pulse 1.5s linear infinite;
                     @keyframes pulse {
                             0% {
                                 transform: scale(0.9);
@@ -81,8 +84,11 @@ export default {
                                 opacity: 0;
                             }
                         }
+                    
                 }
-
+                .my-title{
+                    font-size: 1rem;
+                }
                 i {
                     color: $vibrant;
                     font-size: 50px;
