@@ -11,7 +11,7 @@
 
     <section id="footer-center">
       <div class="container row g-0 py-5 m-auto ">
-        <ul class="col-lg-3 px-3"><div class="text-uppercase mb-3">come find us</div>
+        <ul class="col-lg-3 pe-1"><div class="text-uppercase mb-3">come find us</div>
             <li>12345 North main Street</li>
             <li class="mb-3">New York, NY 555555</li>
             <li>Phone: <span class="my-link">1.800.555.6789</span></li>
@@ -29,7 +29,9 @@
             <li>Weekends Saturday – Sunday</li>
             <li>09:00 – 21:00</li>
         </ul>
-        <div class="col-lg-3"><img class="img-fluid image-shadow " src="../assets/images/gym_ad-compressor.jpg" alt=""></div>
+        <div class="col-lg-3">
+            <img class="img-fluid image-shadow " src="../assets/images/gym_ad-compressor.jpg" alt="">
+        </div>
       </div>
     </section>
 

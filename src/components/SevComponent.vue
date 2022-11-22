@@ -5,17 +5,19 @@
             <div class="text-center">
                 <img class="p-5" src="../assets/images/divider-xx-red.png" alt="divider">
             </div>
-            <div class="row g-0">
-                <div class="my-cards col-lg-4 col-md-6 col-sm-12" v-for="(item, index) in store.trainers" :key="index">
-                    <img class="img-fluid image-shadow" :src="getImagePath(`../assets/images/${item.photo}.jpg`)"
-                        :alt="item.name">
-                    <h5 class="pt-4 px-4">{{item.name}}</h5>
-                    <h5 class="pb-4 px-4">{{item.job}}</h5>
-                    <p class="px-4">{{item.text}}</p>
-                    <div class="p-4">
-                        <span><i class="icon mx-1 fa-brands fa-facebook-f"></i></span>
-                        <span><i class="icon mx-1 fa-brands fa-twitter"></i></span>
-                        <span><i class="icon mx-1 fa-brands fa-instagram"></i></span>
+            <div class="row m-auto g-0">
+                <div class="col-lg-4 col-md-12 col-sm-12" v-for="(item, index) in store.trainers" :key="index">
+                    <div class="my-cards mx-3">
+                        <img class="img-fluid image-shadow" :src="getImagePath(`../assets/images/${item.photo}.jpg`)"
+                            :alt="item.name">
+                        <h5 class="pt-4 px-4">{{item.name}}</h5>
+                        <h5 class="pb-4 px-4">{{item.job}}</h5>
+                        <p class="px-4">{{item.text}}</p>
+                        <div class="p-4">
+                            <span><i class="icon mx-1 fa-brands fa-facebook-f"></i></span>
+                            <span><i class="icon mx-1 fa-brands fa-twitter"></i></span>
+                            <span><i class="icon mx-1 fa-brands fa-instagram"></i></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,9 +67,7 @@ section {
             }
         }
     div.my-cards{
-        width: calc((100% / 3) - 2rem);
         background-color: $shark;
-        margin: 1rem;
         img {
                 &.image-shadow {
                     transition: 1s;
