@@ -148,8 +148,8 @@ export const store = reactive({
             title: 'come find us',
             street: '12345 North main Street',
             city: 'New York, NY 555555',
-            phone: 'Phone',
-            email: 'Email'
+            phone: '1.800.555.6789',
+            email: 'info@your-domain.com'
         },
         {
             title: 'recent posts',
