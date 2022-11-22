@@ -43,6 +43,9 @@ export default {
             &:hover .my-title{
                 color: $vibrant;
             }
+            &:hover .circle{
+                scale: 0.9;
+            }
             &:hover .circle::before,
             &:hover .circle::after {
                 animation: pulse 1.5s linear;
@@ -55,6 +58,7 @@ export default {
                 position: relative;
                 display: flex;
                 align-items: center;
+                transition: all 1s;
                 @include dflex('center');
 
                 &:before,
@@ -63,7 +67,7 @@ export default {
                     opacity: 0;
                     position: absolute;
                     border: 50%;
-                    border: 10px solid rgba(211, 97, 94, 0.7);
+                    border: 10px solid rgba(211, 97, 94, 0.4);
                     left: -20px;
                     right: -20px;
                     top: -20px;
