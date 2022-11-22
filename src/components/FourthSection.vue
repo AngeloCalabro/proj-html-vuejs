@@ -4,12 +4,14 @@
         <div class="p-2 text-center">
             <img src="../assets/images/divider-xx-red.png" alt="divider">
         </div>
-        <div class="my-cards d-flex">
-            <div class="my-card d-flex" v-for="(person, index) in store.people" :key="index">
-                <img class="img-fluid" :src="getImagePath(`../assets/images/${person.photo}.jpg`)" :alt="person.name">
-                <div class="ps-4">
-                    <p><em>{{person.text}}</em></p>
-                    <span class="fw-bold">- {{person.name}}</span>
+        <div class="my-cards row">
+            <div class="col-lg-6 col-sm-12" v-for="(person, index) in store.people" :key="index">
+                <div class="my-card d-flex" >
+                    <img class="img-fluid" :src="getImagePath(`../assets/images/${person.photo}.jpg`)" :alt="person.name">
+                    <div class="ps-4">
+                        <p><em>{{person.text}}</em></p>
+                        <span class="fw-bold">- {{person.name}}</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,9 +41,7 @@ export default {
 section{
     padding: 100px 0;
     div.my-cards{
-        flex-wrap: wrap;
         div.my-card{
-            width: calc((100% / 2) - 2rem);
             margin: 1rem;
             padding: 2rem;
             background-color: $woodsmoke;

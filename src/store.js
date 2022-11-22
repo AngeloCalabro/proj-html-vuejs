@@ -71,6 +71,26 @@ export const store = reactive({
             name: 'Jeff Glum'
         },
     ],
+    photoPerformance: [
+        {
+            image: 'home-image1'
+        },
+        {
+            image: 'home-image2'
+        },
+        {
+            image: 'home-image3'
+        },
+        {
+            image: 'home-image4'
+        },
+        {
+            image: 'home-image54'
+        },
+        {
+            image: 'home-image6'
+        },
+    ],
     linksNavBottom: [
         {
             title: 'come find us',
