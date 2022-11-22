@@ -37,3 +37,25 @@ a{
 li{
     list-style-type: none;
 }
+.divider-candy-shark{
+    bottom: -21px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+    transform: rotate(-45deg);
+    margin-left: -20px;
+    background-color: $shark;
+}
+.divider-candy-wood {
+    bottom: -21px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+    transform: rotate(-45deg);
+    margin-left: -20px;
+    background-color: $woodsmoke;
+}

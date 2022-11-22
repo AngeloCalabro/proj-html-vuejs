@@ -5,6 +5,9 @@
         <p class="px-5">At Avada Gym, everything we do from to bottom is of the highest quality to ensure we're equipped to
             help you reach your goals of a healthy and fit lifestyle.</p>
     </section>
+    <div class="position-relative">
+        <div class="divider-candy-shark"></div>
+    </div>
 </template>
 
 <script>

@@ -11,18 +11,18 @@
 
     <section id="footer-center">
       <div class="container row g-0 py-5 m-auto ">
-        <ul class="col-lg-3"><div class="text-uppercase mb-3">come find us</div>
+        <ul class="col-lg-3 px-3"><div class="text-uppercase mb-3">come find us</div>
             <li>12345 North main Street</li>
             <li class="mb-3">New York, NY 555555</li>
             <li>Phone: <span class="my-link">1.800.555.6789</span></li>
             <li>Email: <span class="my-link">info@your-domain.com</span></li>
         </ul>
-        <ul class="col-lg-3">
+        <ul class="col-lg-3 px-3">
             <div class="text-uppercase mb-3">RECENT POSTS</div>
             <li  class="mb-3"><span class="my-link">&#62; Train with free weights or your body weight?</span></li>
             <li><span class="my-link">&#62; Nutritional advice that will keep you training</span></li>
         </ul>
-        <ul class="col-lg-3">
+        <ul class="col-lg-3 px-3">
             <div class="text-uppercase mb-3">OPENING TIMES</div>
             <li>Weekdays Monday – Friday</li>
             <li class="mb-3">09:00 – 19:00</li>

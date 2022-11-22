@@ -22,6 +22,9 @@
             <div class="my-btn text-uppercase p-2">view all trainers</div>
         </div>
     </section>
+    <div class="position-relative">
+        <div class="divider-candy-wood"></div>
+    </div>
 </template>
 
 <script>
@@ -82,7 +85,7 @@ section {
                 line-height: 2rem;
             }
             div{
-                i.icon {
+                .icon {
                         width: 50px;
                         height: 50px;
                         text-align: center;
