@@ -5,7 +5,7 @@
             <img class="p-5" src="../assets/images/divider-xx-red.png" alt="divider">
         </div>
         <div class="row g-0">
-            <div class="col-lg-4 col-md-6 col-sm-12 p-3" v-for="(item, index) in store.photoPerformance" :key="index">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3 m-auto d-flex" v-for="(item, index) in store.photoPerformance" :key="index">
                 <img class="img-fluid image-shadow" :src="getImagePath(`../assets/images/${item.image}.jpg`)" :alt="item.name">
             </div>
         </div>

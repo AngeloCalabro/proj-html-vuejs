@@ -8,6 +8,7 @@
     <FifthComponent/>
     <SixthComponent/>
     <SevComponent/>
+    <OctaveSection/>
   </main>
   <FooterComponent/>
 </template>
@@ -22,9 +23,10 @@ import FourthSection from './components/FourthSection.vue';
 import FifthComponent from './components/FifthComponent.vue';
 import SixthComponent from './components/SixthComponent.vue';
 import SevComponent from './components/SevComponent.vue';
+import OctaveSection from './components/OctaveSection.vue';
 
   export default {
-  components: { HeaderComponent, FirstSection, SecondSection, ThirdSection, FooterComponent, FourthSection, FifthComponent, SixthComponent, SevComponent }
+  components: { HeaderComponent, FirstSection, SecondSection, ThirdSection, FooterComponent, FourthSection, FifthComponent, SixthComponent, SevComponent, OctaveSection }
 }
 </script>
 

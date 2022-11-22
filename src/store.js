@@ -91,6 +91,58 @@ export const store = reactive({
             image: 'home-image6'
         },
     ],
+    trainers: [
+        {
+            photo: 'trainer1',
+            name: 'Ann Baker',
+            job: 'Personal Trainer',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium quae expedita dolorem.'
+        },
+        {
+            photo: 'trainer3',
+            name: 'Anne Warren',
+            job: 'Personal Trainer',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium quae expedita dolorem.'
+        },
+        {
+            photo: 'trainer4',
+            name: 'Peter Rice',
+            job: 'Personal Trainer',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium quae expedita dolorem.'
+        }
+    ],
+    performanceNews: [
+        {
+            photo: 'blog1',
+            title: 'Train with free weigths of your body weight?',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+        {
+            photo: 'blog6',
+            title: 'Nutritional advice that will keep you training',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+        {
+            photo: 'trainer4',
+            title: 'Simple principles for your next workout',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+        {
+            photo: 'blog4',
+            title: 'To be number one, train like you’re number two',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+        {
+            photo: 'trainer3',
+            title: 'Top 5 mistakes every gym member makes',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+        {
+            photo: 'trainer1',
+            title: 'The myths of shedding body fat explored',
+            paragraf: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]'
+        },
+    ],
     linksNavBottom: [
         {
             title: 'come find us',
