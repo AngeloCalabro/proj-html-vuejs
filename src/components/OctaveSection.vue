@@ -57,17 +57,16 @@ section {
                 position: relative;
                 cursor: pointer;
                 div.overlay {
+                    opacity: 0;
                     position: absolute;
                     top: 0;
+                    right: 0;
                     bottom: 0;
                     left: 0;
-                    right: 0;
                     width: 100%;
                     height: 100%;
                     background-color: $vibrant;
-                    opacity: 0;
-                    z-index: 1000;
-                    transition: all 1s ease-in-out;
+                    transition: all .3s ease-in-out;
                     &:hover {
                         opacity: 0.7;
                     }

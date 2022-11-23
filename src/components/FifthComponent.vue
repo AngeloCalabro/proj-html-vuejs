@@ -36,6 +36,7 @@ export default {
 section {
     padding: 100px 0;
     img.image-shadow{
+        cursor: pointer;
         transition: 1s;
         &:hover{
             scale: 1.1;

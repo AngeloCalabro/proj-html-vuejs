@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="parallax">
         <div class="jumbo container text-center">
             <p class="paragraf">"I fear not the man who has practiced 10,000 kicks once, but i fear the man who has practiced one kick 10,000 times"</p>
             <p class="text-uppercase fw-bold p-2">Bruce Lee quote of the day</p>
@@ -10,7 +10,6 @@
 <script>
     export default {
         name: 'SixthComponent'
-        
     }
 </script>
 
@@ -18,11 +17,12 @@
 @use '../assets/style/partials/variables' as *;
 @use '../assets/style/partials/mixins' as *;
 
-section {
+section.parallax {
     min-height: 450px;
     max-width: 100%;
     position: relative;
     background-image: url('../assets/images/home-testimonial-bg.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

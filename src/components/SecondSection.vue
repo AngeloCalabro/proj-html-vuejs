@@ -2,8 +2,8 @@
     <section id="second-section">
         <div class="container">
             <div class="row g-0">
-                <div class="col-lg-6 pe-2">
-                    <img class="img-fluid" src="../assets/images/home_img-compressor.jpg" alt="">
+                <div class="col-lg-6 pe-4">
+                    <img class="img-fluid image-shadow" src="../assets/images/home_img-compressor.jpg" alt="">
                 </div>
                 <div class="col-lg-6 ps-2">
                     <h3 class="text-capitalize">Sign up for a free training session!</h3>
@@ -45,6 +45,15 @@ export default {
 
     div.container {
         padding: 100px 0;
+        img.image-shadow {
+                cursor: pointer;
+                transition: 1s;
+        
+                &:hover {
+                    scale: 1.05;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                }
+            }
 
         .input-group{
             position: relative;

@@ -4,7 +4,7 @@
         <div class="p-2 text-center">
             <img src="../assets/images/divider-xx-red.png" alt="divider">
         </div>
-        <div class="my-cards row">
+        <div class="row">
             <div class="col-lg-6 col-sm-12" v-for="(person, index) in store.people" :key="index">
                 <div class="my-card d-flex" >
                     <img class="img-fluid" :src="getImagePath(`../assets/images/${person.photo}.jpg`)" :alt="person.name">
@@ -40,12 +40,10 @@ export default {
 @use '../assets/style/partials/mixins' as *;
 section{
     padding: 100px 0;
-    div.my-cards{
-        div.my-card{
-            margin: 1rem;
-            padding: 2rem;
-            background-color: $woodsmoke;
-        }
+    div.my-card{
+        margin: 1rem;
+        padding: 2rem;
+        background-color: $woodsmoke;
     }
 }
 </style>

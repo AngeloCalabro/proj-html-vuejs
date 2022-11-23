@@ -48,7 +48,7 @@ export default {
             }
             &:hover .circle::before,
             &:hover .circle::after {
-                animation: pulse 1.5s linear;
+                animation: pulse 1s linear;
             }
             div.circle {
                 width: 100px;
@@ -76,7 +76,7 @@ export default {
                     @keyframes pulse {
                             0% {
                                 transform: scale(0.9);
-                                opacity: 0;
+                                opacity: 0.1;
                             }
                     
                             50% {
@@ -84,8 +84,8 @@ export default {
                             }
                     
                             100% {
-                                transform: scale(1.1);
-                                opacity: 0;
+                                transform: scale(1.2);
+                                opacity: 0.1;
                             }
                         }
                     
