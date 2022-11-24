@@ -44,6 +44,12 @@ section{
         margin: 1rem;
         padding: 2rem;
         background-color: $woodsmoke;
+        p{
+            color: $dove-gray;
+        }
+        span{
+            color: $dove-gray;
+        }
     }
 }
 </style>

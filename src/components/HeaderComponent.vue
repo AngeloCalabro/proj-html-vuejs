@@ -23,7 +23,6 @@ import {store} from '../store';
         data(){
             return{
                 store,
-
             }
         }
 
@@ -72,33 +71,31 @@ header{
         }
         div.jumbo{
             position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-                h1 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            h1 {
+                color: $white;
+                font-size: $fs-xxl;
+                // white-space: nowrap
+            }
+            p{
+                color: $white;
+            }
+            div.my-btn{
+                width: max-content;
+                color: $edward;
+                border: 1px solid $edward;
+                transition: 1s;
+                &:hover{
                     color: $white;
-                    font-size: $fs-xxl;
-                    // white-space: nowrap
+                    border: 1px solid $white;
+                    cursor: pointer;
                 }
-                p{
-                    color: $white;
-                }
-                div.my-btn{
-                    width: max-content;
-                    color: $edward;
-                    border: 1px solid $edward;
-                    transition: 1s;
-                    &:hover{
-                        color: $white;
-                        border: 1px solid $white;
-                        cursor: pointer;
-                    }
-                }
+            }
 
         }       
-        
     }
-
 }
 </style>
