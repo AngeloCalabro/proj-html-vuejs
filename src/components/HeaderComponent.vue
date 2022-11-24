@@ -40,7 +40,7 @@ header{
         max-width: 100%;
         position: relative;
         background-image: url('../assets/images/home-banner.jpg');
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
         div.navbar{
